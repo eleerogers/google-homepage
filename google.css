@@ -135,6 +135,28 @@ form {
 	text-align: center;
 }
 
+.button:focus {
+	width: 150px;
+	height: 36px;
+	margin: 11px 2px;
+	padding: 0 16px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	font-size: 13px;
+	border-radius: 0%;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: rgb(242, 242, 242);
+	border: none;
+	box-shadow: 0px 0px;
+	opacity: .7;
+	text-align: center;
+	outline: none;
+}
+
+
 .button:hover {
 	width: 150px;
 	height: 36px;
@@ -163,13 +185,13 @@ form {
 }
 
 #mic {
-    display: block;
-    float: right;
-    position: relative;
-    height: 20px;
-    top: -33px;
-    right: 13px;
-    pointer-events: none;
+    	display: block;
+    	float: right;
+    	position: relative;
+    	height: 20px;
+    	top: -33px;
+    	right: 13px;
+    	pointer-events: none;
 }
 
 .wrapper {
@@ -183,15 +205,15 @@ form {
 
 .footer1 {
 	background-color: rgb(242,242,242);
-    border-top: 0.5px solid rgba(0,0,0,0.05);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    line-height: 40px;
-    font-size: small;
-    color: #666;
-    opacity: .7;
+    	border-top: 0.5px solid rgba(0,0,0,0.05);
+    	position: fixed;
+    	bottom: 0;
+    	left: 0;
+    	width: 100%;
+    	line-height: 40px;
+    	font-size: small;
+    	color: #666;
+    	opacity: .7;
 }
 
 #f1a {
