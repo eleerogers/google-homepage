@@ -1,63 +1,246 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-	
 	<meta charset="utf-8">
-
-	<title>Google</title>
-
-	<link rel="stylesheet" type="text/css" href="google.css">
-
+	<title>Google Results</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 
-
 <body>
+
+<div class="header">
 	
-<header>
-<ul style="text-align: right;">
-	<li class="header1"><a href="https://mail.google.com/mail">Gmail</a></li>
-	<li class="header1"><a href="https://www.google.com/imghp">Images</a></li>
-	<li class="header2"><a href="https://www.google.com/intl/en/about/products/"><img src="images/squares-icon-1.jpg" id=options alt="options"></a></li>
-	<li class="header2"><a href="fake link"><img src="images/181539.png" id="alert" alt="alert"></a></li>
-	<li><a href="fake link"><img src="https://lh3.googleusercontent.com/-hZZSVh5FhsE/AAAAAAAAAAI/AAAAAAAAAAA/AI6yGXz7MoTuH3fGNYxWB5RfsB9daBGD-A/s32-c-mo/photo.jpg" id="pic" alt="personal icon"></a></li>
-</ul>
-</header>
+	<img src="images/Google.svg-2.png" id="logo" alt="Google logo"><!--
 
-<div id="content">
 
-	<img src="images/Google.svg-2.png" id="logo" alt="Google logo">
+	--><ul id=icons>
+		<li class="header2"><a href="https://www.google.com/intl/en/about/products/"><img src="images/squares-icon-1.jpg" id=options alt="options"></a></li>
+		<li class="header2"><a href="fake link"><img src="images/181539.png" id="alert" alt="alert"></a></li>
+		<li><a href="fake link"><img src="https://lh3.googleusercontent.com/-hZZSVh5FhsE/AAAAAAAAAAI/AAAAAAAAAAA/AI6yGXz7MoTuH3fGNYxWB5RfsB9daBGD-A/s32-c-mo/photo.jpg" id="pic" alt="personal icon"></a></li>
+	</ul>
 
-	<form method="POST">
 
-		<div id="input">
-			<input type="text" name="search">
-			<img src="images/microphone.png" id="mic" alt="microphone">
-			<br>
-			<br>
-			<input value="Google Search" class="button" onclick="location.href = 'results.html'">
-			<input value="I'm Feeling Lucky" class="button" onclick="location.href = 'results.html'">
+	<div id="input">
+		<input type="text" name="search" id="searchbar" value="the odin project">
+		<img src="images/microphone.png" id="mic" alt="microphone">
+	</div>
+
+	
+
+	<div class="navbar">
+		<div id="moveright">
+			<ul>
+				<li><a href="#"><span id="highlight">  All  </span></li></a>
+				<li class="header1"><a href="#">News</li></a>
+				<li class="header1"><a href="#">Videos</li></a>
+				<li class="header1"><a href="#">Shopping</li></a>
+				<li class="header1"><a href="#">Images</li></a>
+				<li class="header1"><a href="#">More</li></a>
+			</ul>
 		</div>
-		
-	</form>
+
+		<div>
+			<ul>
+				<li class="header1"><a href="#">Settings</li></a>
+				<li class="header1"><a href="#">Tools</li></a>
+			</ul>
+		</div>
+	</div>
 </div>
 
+<div>	
+	
+	<div class="results">
+		<p class="notes">About 684,000 results (0.57 seconds)</p>
+		<br>
+		
+		<div class="results1">
+			<h3><a href="https://www.theodinproject.com">The Odin Project: Learn Web Development for Free Using Ruby on Rails</a></h3>
+			<p class="url">https://www.theodinproject.com/ ▾ </p>
+			<p><em>The Odin Project</em> empowers aspiring web developers to learn together.</p>
+			<p class="notes">You visited this page on 7/3/17.</p>
+		
 
-<div class="footer1">
+			<div style="margin-left: 22px;">
+				<div class="submain">
+					<div class="sub">
+						<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQjBAILjAB&url=https%3A%2F%2Fwww.theodinproject.com%2Fcourses&usg=AFQjCNEa5DDBU5_0wj0EeDAOhFZA-Ja4wg">Courses</a></h3>
+						<p>Web Development 101 - Ruby<br /> Programming - Login - ...</p>
+					</div>
+
+					<div class="sub">
+						<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQjBAIMjAC&url=https%3A%2F%2Fwww.theodinproject.com%2Fcourses%2Fweb-development-101&usg=AFQjCNHrrFcFFgCdBcWgIvDf47A38ZyGmQ">Web Development 101</a></h3>
+						<p>How this Course Will Work - <br />Installations - HTML/CSS - Ruby</p>
+					</div>
+
+					<div class="sub">
+						<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQjBAINjAD&url=https%3A%2F%2Fwww.theodinproject.com%2Flogin&usg=AFQjCNHuFF2hB1KjMZcZcEcsQ-JenBIb4A">Login</a></h3>
+						<p>Sign in with Github ...or do it the old <br />fashioned way: Email ...</p>
+					</div>
+				</div>
+				<div class="submain">
+					<div class="sub">
+						<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQjBAIMDAE&url=https%3A%2F%2Fwww.theodinproject.com%2Fcourses%2Fruby-programming&usg=AFQjCNHh1SbD3NiUBLVC15-Y98eaA5QDpA">Ruby Programming</a></h3>
+						<p>Ruby Building Blocks - Building <br />Blocks - OOP - ...</p>
+					</div>
+
+					<div class="sub">
+						<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQjBAINDAF&url=https%3A%2F%2Fwww.theodinproject.com%2Fcourses%2Fintroduction-to-web-development&usg=AFQjCNH7LG6VYu1IrMNsivRYgfsLoJbPcg">Introduction to Web ...</a></h3>
+						<p>What a Web Developer Does - Tools of <br />the Trade - Conclusion</p>
+					</div>
+
+					<div class="sub">
+						<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&cad=rja&uact=8&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQjBAIODAG&url=https%3A%2F%2Fwww.theodinproject.com%2Fcourses%2Fweb-development-101%2Flessons%2Fgearing-up&usg=AFQjCNGq8S2IHx58fJUmG6uUG5PEj_BIPw">Gearing Up</a></h3>
+						<p>Gearing Up. Learning how to program <br />takes work. Like any ...</p>
+					</div>
+				</div>
+			<p><table><td style="column-span: 2; padding-left: 3px; vertical-align: top;"><a href="https://www.google.com/search?q=+site:theodinproject.com+the+odin+project&sa=X&ved=0ahUKEwjK246s0_PUAhXn24MKHSZPCDsQrAMIOQ">More results from theodinproject.com »</a></td></table></p>
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class="results1">
+			<h3><a href="everydayutilitarian.com/essays/notes-on-the-odin-project/">A Better Way to Learn Programming? Notes on The Odin Project ...</a></h3>
+			<p class="url">everydayutilitarian.com/essays/notes-on-the-odin-project/ ▾ </p>
+			<p><span class="date">Jul 9, 2014 -</span> That being said, I do have some modifications I'd like to see to <em>The Odin Project</em>. So consider doing <em>The Odin Project</em>, except with the following ...</p>
+			<p class="notes">You visited this page on 7/4/17.</p>
+		</div>
+
+		<div class="results1">
+			<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=0ahUKEwjTmuOCrPDUAhWi5YMKHWrrAHsQFghFMAg&url=https%3A%2F%2Fwww.quora.com%2FHow-does-The-Odin-Project-compare-to-programming-bootcamps-like-Hack-Reactor&usg=AFQjCNG_X27T8bKNdRlZ9dBvXFTH-Dhuqg">How does The Odin Project compare to programming bootcamps like ...</a></h3>
+			<p class="url">https://www.quora.com/How-does-The-Odin-Project-compare-to-programming-bootc... ▾ </p>
+			<p>Background (I'm so relevant?!) I graduated from Hack Reactor (read about my experiences here: http://rebootjeff.github.io/blog...). I attended <em>Odin Project</em> meetups ...</p>
+		</div>
+
+		<div class="results1">
+			<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=0ahUKEwjTmuOCrPDUAhWi5YMKHWrrAHsQFghKMAk&url=https%3A%2F%2Fwww.quora.com%2FDid-anyone-get-a-job-as-a-developer-after-completing-The-Odin-Project&usg=AFQjCNE-ztPDeeXWSCkoo17UaQcHZpeuqw">Did anyone get a job as a developer after completing 'The Odin Project'?</a></h3>
+			<p class="url">https://www.quora.com/Did-anyone-get-a-job-as-a-developer-after-completing-The-O... ▾ </p>
+			<p>Or of anybody who did ... Hi, founder here. In short, yes. The <em>project</em> was started in summer 2013 and released more broadly in April 2014. I've started hearing ...</p>
+			<p class="notes">You visited this page on 7/4/17.</p>
+		</div>
+
+		<div class="results1">
+			<h3><a href="https://www.reddit.com/r/.../people_who_have_finished_the_odin_project_what/">People who have finished The Odin Project, what are your capabilities ...</a></h3>
+			<p class="url">https://www.reddit.com/r/.../people_who_have_finished_the_odin_project_what/ ▾ </p>
+			<p><span class="date">Jan 12, 2015 -</span> In fact, the creator of <em>The Odin Project</em> is a bootcamp alumnus (from which I can't remember off the top of my head) and built <em>The Odin Project</em> ...</p>
+		</div>
+
+		<div class="results1">
+			<h3><a href="https://github.com/TheOdinProject">The Odin Project · GitHub</a></h3>
+			<p class="url">https://github.com/TheOdinProject ▾ </p>
+			<p>GitHub is where people build software. More than 22 million people use GitHub to discover, fork, and contribute to over 61 million <em>projects</em>.</p>
+		</div>
+
+		<div class="results1">
+			<h3><a href="https://github.com/TheOdinProject/theodinproject">GitHub - TheOdinProject/theodinproject: Main Website for The Odin ...</a></h3>
+			<p class="url">https://github.com/TheOdinProject/theodinproject ▾ </p>
+			<p>Main Website for <em>The Odin Project</em>. Contribute to <em>theodinproject</em> development by creating an account on GitHub.</p>
+		</div>
+
+		<div class="results1"><h3 class="related">Searches related to the odin project</h3>
+		<table>
+			<tr>
+				<td><a href="https://www.google.com/search?q=the+odin+project+review&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIYSgA">the odin project <em>review</em></a></td>
+				<td><a href="https://www.google.com/search?q=is+the+odin+project+free&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIZSgE"><em>is</em> the odin project <em>free</em></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://www.google.com/search?q=the+odin+project+reddit&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIYigB">the odin project <em>reddit</em></a></td>
+				<td><a href="https://www.google.com/search?q=project+odin+space&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIZigF">project odin <em>space</em></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://www.google.com/search?q=odin+project+vs+free+code+camp&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIYygC">odin project <em>vs free code camp</em></a></td>
+				<td><a href="https://www.google.com/search?q=the+odin+crispr&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIZygG">the odin <em>crispr</em></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://www.google.com/search?q=how+long+does+the+odin+project+take&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIZCgD"><em>how long does</em> the odin project <em>take</em></a></td>
+				<td><a href="https://www.google.com/search?q=the+odin+project+success+stories&sa=X&ved=0ahUKEwi5uMf0l_PUAhVC0YMKHV20D-cQ1QIIaCgH">the odin project <em>success stories</em> </a> </td>
+			</tr>
+		</table>	
+		</div>
+
+		<div style="display:block;">
+			<table class="googlenav">
+				<tbody>
+					<tr>
+						<td>
+							<span class="csb" style="background: url(images/googles.png) no-repeat; background-position: -24px 0; background-size: 167px; width: 28px;"></span>
+						</td>
+						<td>
+							<span class="csb" style="background: url(images/googles.png) no-repeat; background-position: -53px 0; background-size: 167px; width: 20px;"></span> 1
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=10&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 2
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=20&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 3
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=30&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 4
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=40&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 5
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=50&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 6
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=60&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 7
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=70&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 8
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=80&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 9
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=90&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -74px 0; background-size: 167px; width: 20px;"></span> 10
+							</a>
+						</td>
+						<td>
+							<a href="https://www.google.com/search?q=the+odin+project&ei=ZHZdWbSWE4PAjwTt8LiQDQ&start=10&sa=N">
+								<span class="csb ch" style="background: url(images/googles.png) no-repeat; background-position: -96px 0; background-size: 167px; width: 71px;"></span> <span style="display: block; margin-left: 53px">Next</span>
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>	
+	</div>
+</div>
+
+<div class="footer1 navbar">
+	<div class="results">
+	<p> <span id="grey"> <span class="dot"> </span> Parkside Heights, Middleton, WI - Reported by this computer - </span> <span class="header1 black"> <a href="https://www.google.com/search?q=the+odin+project&oq=the+odin+project&aqs=chrome..69i57j69i60j69i65j35i39j0l2.10124j0j7&sourceid=chrome&ie=UTF-8#"> Use precise location </a> </span> - <span class="header1 black"> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0ahUKEwi02JD-pfPUAhUD4IMKHW04DtIQty4IbA&url=https%3A%2F%2Fsupport.google.com%2Fwebsearch%3Fp%3Dws_settings_location%26hl%3Den&usg=AFQjCNHlgSnvUiH73CVJPbvuNVgY6KO76A"> Learn more </a> </span> </p>
 
 	<ul>
-		<li class="f1a"><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
-		<li class="f1a"><a href="https://www.google.com/services/?fg=1">Business</a></li>
-		<li class="f1a"><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
-		<li class="f1b"><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
-		<li class="f1b"><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
-		<li class="f1b"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+		<li class="header1" style="padding-left: 0; padding-right: 30px;"><a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">Help</a></li>
+		<li class="header1" style="padding-left: 0; padding-right: 30px;"><a href="https://www.google.com">Send feedback</a></li>
+		<li class="header1" style="padding-left: 0; padding-right: 30px;"><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+		<li class="header1" style="padding-left: 0; padding-right: 30px;"><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
 	</ul>	
-
+	</div>
 </div>
 
-
 </body>
-
 </html>
