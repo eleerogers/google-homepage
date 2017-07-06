@@ -35,6 +35,8 @@ body {background-color: white;
 	font-family: arial;
 	color: black;	
 	display: block;
+	min-width: 600px;
+	min-height: 1000px;
 }
 
 a {
@@ -50,10 +52,15 @@ form {
 	display: block;
 }
 
+header {
+	min-width: 600px;
+}
+
 
 #content {
 	text-align: center;
 	align-items: center;
+	min-height: 800px;
 }
 
 #options {
@@ -125,15 +132,15 @@ form {
 	display: inline-block;
 	text-align: center;
 	font-size: 13px;
-	border-radius: 0%;
+	border-radius: 1%;
 	font-family: Arial;
 	font-size: 13px;
 	font-weight: bold;
 	background-color: rgb(242, 242, 242);
-	border: none;
 	box-shadow: 0px 0px;
 	opacity: .7;
 	text-align: center;
+	border: 1px solid white;
 }
 
 .button:focus {
@@ -145,16 +152,16 @@ form {
 	display: inline-block;
 	text-align: center;
 	font-size: 13px;
-	border-radius: 0%;
+	border-radius: 1%;
 	font-family: Arial;
 	font-size: 13px;
 	font-weight: bold;
 	background-color: rgb(242, 242, 242);
-	border: none;
 	box-shadow: 0px 0px;
 	opacity: .7;
 	text-align: center;
 	outline: none;
+	border: 1px solid white;
 }
 
 
@@ -166,7 +173,7 @@ form {
 	display: inline-block;
 	text-align: center;
 	font-size: 13px;
-	border-radius: 0%;
+	border-radius: 1%;
 	font-family: Arial;
 	font-size: 13px;
 	font-weight: bold;
@@ -176,6 +183,7 @@ form {
 	opacity: 1;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, .2);
+	cursor: pointer;
 }
 
 #pic {
@@ -207,7 +215,7 @@ form {
 .footer1 {
 	background-color: rgb(242,242,242);
     border-top: 0.5px solid rgba(0,0,0,0.05);
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -215,6 +223,8 @@ form {
     font-size: small;
     color: #666;
     opacity: .7;
+    min-width: 600px;
+    display: block;
 }
 
 .f1a {
