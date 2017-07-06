@@ -505,7 +505,7 @@ body {background-color: white;
     font-family: arial;
     color: black;   
     display: block;
-    min-width: 600px;
+    min-width: 800px;
 }
 
 li a {
@@ -531,10 +531,15 @@ div {
     background-color: #fafafa;
     border-bottom: 1px solid #ddd;
     height: 143px;
+    width: 100%;
+}
+
+div .header {
+    display: block;
 }
 
 .navbar {
-    display: inline-block;
+    display: block;
     font-family: Roboto, Arial;
     font-size: 13px;
 }
@@ -724,7 +729,7 @@ div {
     font-size: small;
     color: #666;
     opacity: .7;
-    min-width: 600px;
+    min-width: 800px;
     display: block;
     height: 100px;
 }
@@ -781,7 +786,7 @@ div {
 }
 
 #moveright {
-    margin-left: 128px;
+    margin-left: 168px;
 }
 
 #moveright a:hover {
