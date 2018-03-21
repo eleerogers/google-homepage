@@ -96,6 +96,10 @@ header {
 	font-size: 13px;
 }
 
+.header3 {
+	display: none;
+}
+
 #alert {
 	height: 30px;
 	width: 30px;
