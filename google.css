@@ -97,7 +97,7 @@ header {
 }
 
 .header3 {
-	display: hidden;
+	visibility: hidden;
 }
 
 #alert {
